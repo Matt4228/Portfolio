@@ -1,0 +1,73 @@
+body {
+  background-color: #1d3557;
+}
+
+a {
+  color: #1d3557;
+}
+
+.navbar{
+  background-color: #f1faee;
+}
+
+.navItems {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #ffffff !important;
+  background-color: #1d3557 !important;
+  border-color:  #457b9d !important;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  flex-shrink: 0;
+}
+
+p{
+  color: 2626262;
+  flex-grow: 1;
+}
+
+.aboutMe{
+  background-color: f1faee;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+.purpose{
+  background-color: f1faee;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5%;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #e63946;
+}
+
+.headshot{
+  margin-top: 3%;
+  text-align: center;
+}
+
