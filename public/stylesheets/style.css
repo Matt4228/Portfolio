@@ -50,24 +50,40 @@ footer p {
   color: #FFFFFF;
 }
 
-footer .links{
+footer .linksWrapper{
   display: flex;
   align-items: center;
   min-width: auto;
+  text-align: center;
 }
 
-footer .ul {
-  float: right;
-}
-
-.links li {
+footer .link {
   background-color: #FFFFFF;
-  border-radius: 50%;
-  margin-left: auto;
+  cursor: pointer;
+  border-radius: 32px;
+  margin-left: 10px;
   margin-right: auto;
   text-align: center;
-  padding: 1%;
+  padding: 10px 5px 10px 5px;
 }
+
+footer .logo {
+  align-items: center;
+  margin: 5px;
+}
+
+footer img{
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer path {
+  align-items: center !important;
+  vertical-align: middle !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 
 
 /** landing */
@@ -95,7 +111,7 @@ footer .ul {
   color:#FFFFFF;
 }
 
-img{
+.upper img{
   width: 250px;
   height: 250px;
   border-radius: 50%;
